@@ -1,0 +1,19 @@
+inherit_from: "configs/mono/tum/base_real_config.yaml"
+
+Dataset:
+  dataset_path: "datasets/cse571_project/fresh_data/"
+  Calibration: 
+    fx: 907.0
+    fy: 907.1
+    cx: 640.2
+    cy: 385.2
+    k1: 0.0 #0.262383
+    k2: 0.0 #-0.953104
+    p1: 0.0  #-0.005358
+    p2: 0.0 #0.002628
+    k3: 0.0 #1.163314
+    width: 720
+    height: 1280
+    depth_scale: 1000.0
+    distorted: False
+
